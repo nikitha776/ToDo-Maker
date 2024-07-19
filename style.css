@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.head {
+    height: 60px;
+    width: 100%;
+    background-color: #6E75A8;
+    display: flex;
+    color:aliceblue;
+}
+#icon {
+    font-size: 25px;
+    margin: 20px 15px 20px 20px;
+}
+.head h1 {
+    font-size: 30px;
+    margin-top: 12px;
+}
+#profile {
+    margin-left: 1250px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.board {
+    text-align: center;
+    background-color: #e2e6ffc3;
+    height: 25px;
+    width: 10%;
+    font-size: 20px;
+    border: 1px solid rgba(226, 230, 255);
+    border-radius: 1vmin;
+    margin-left: 90vmin;
+    margin-top: 20px;
+}
+#title {
+    width: 80%;
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 40px;
+}
+.first {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid lightgray;
+}
+.first button {
+    border: none;
+    background-color: #fff;
+}
+#addBtn {
+    margin-left: 20px;
+    font-size: 20px;
+}
+#saveBtn {
+    margin-left: 1100px;
+    border: solid 0.5px lightgray;
+    height: 20px;
+    width: 40px;
+    background-color: #fff;
+}
+#saveChange {
+    border: solid 0.5px lightgray;
+    height: 20px;
+    width: 40px;
+    background-color: #fff;
+    margin-left: 15px;
+}
+#deleteBtn {
+    margin-left: 20px;
+}
+form {
+    margin: 20px;
+    border: 1px solid lightgray;
+    border-radius: 0.7vmin;
+}
+#date {
+    border: none;
+    outline: none;
+    margin-left: 40px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+.third {
+    height: 30px;
+    background-color: rgba(248, 247, 247, 0.914);
+}
+input {
+    font-size: 15px;
+}
+.second {
+    height: 50px;
+    font-size: 15px; 
+    border-bottom: 1px solid lightgray;
+}
+#description {
+    border : none;
+    outline : none;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    width: 80%;
+}
+#date:hover {
+    cursor: pointer;
+}
+.task {
+    border: 1px solid lightgray;
+    width : 94%;
+    margin-left: 20px;
+    border-radius: 1vmin;
+    padding: 10px;
+    margin-bottom : 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+.task input {
+    border : none;
+    outline: none;
+}
+.one {
+    font-size: 15px;
+    width: 80%;
+    margin-left: 5px;
+    color: black;
+    background-color: #fff;
+}
+.two {
+    margin-left: 24px;
+    font-size: 14px;
+    width: 80%;
+    background: none;
+    appearance: none;
+}
+.three {
+    margin-left: 24px;
+    font-size: 12px;
+    width: 80%;
+    background:none;
+}
+.combine {
+    display: flex;
+}
+.checkbox {
+    margin-right: 5px;
+}
+.delBtn {
+    background-color: #fff;
+    border: none;
+    font-size: 17px;
+    color: #6E75A8;
+    cursor: pointer;
+}
+.editBtn {
+    background-color: #fff;
+    border: none;
+    margin-right: 20px;
+    font-size: 17px;
+    color: #6E75A8;
+    cursor: pointer;
+}
+.star {
+    margin-right: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    color: lightgray;
+}
+.marked {
+    color: goldenrod;
+}
+.msg{
+    margin-left: 80px;
+    color: grey;
+    font-size: 15px;
+}
+.errorMsg {
+    background-color: aliceblue;
+    padding: 5px 0px 5px 0px;
+    width: 200px;
+    text-align: center;
+    margin-left : 550px;
+    margin-bottom: 15px;
+    border-radius: 1vmin;
+    display: none;
+    color: red;
+}

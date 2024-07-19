@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="head">
+        <i id = "icon" class="fa-solid fa-check-double"></i>
+        <h1>To-Do</h1>
+        <!-- <i id="profile" class="fa-solid fa-user"></i> -->
+    </div>
+    <div class="board"></div>
+    <form>
+        <div class="first">
+            <input type="text" id="title" placeholder="Title">
+        </div>
+        <div class="second">
+            <input id="description" type="text" placeholder="Description">
+        </div>
+        <div class="third">
+            <input id="date" type="date">
+            <button id="saveBtn">Add</button>
+            <button id="saveChange">Save</button>
+        </div>
+    </form>
+    <div class="errorMsg"></div>
+    <div id="taskContainer" class="task-container">
+        <div class="starred"></div>
+        <div class="pending"></div>
+        <div class="completed"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
